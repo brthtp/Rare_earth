@@ -61,7 +61,20 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Luxury color tokens
+				luxury: {
+					navy: 'hsl(var(--luxury-navy))',
+					gold: 'hsl(var(--luxury-gold))',
+					cream: 'hsl(var(--luxury-cream))',
+					charcoal: 'hsl(var(--luxury-charcoal))',
+					champagne: 'hsl(var(--luxury-champagne))'
 				}
+			},
+			fontFamily: {
+				luxury: ['Playfair Display', 'serif'],
+				elegant: ['Inter', 'sans-serif'],
+				sans: ['Inter', 'ui-sans-serif', 'system-ui']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

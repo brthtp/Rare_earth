@@ -36,25 +36,14 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Content */}
           <div>
-            <div className="inline-flex items-center px-4 py-2 rounded-full bg-accent/10 border border-accent/20 mb-6">
-              <span className="text-accent font-elegant text-sm">About Prestigious Properties</span>
-            </div>
-            
             <h2 className="text-4xl md:text-5xl font-luxury font-bold text-foreground mb-6">
-              Redefining Luxury
-              <span className="block text-gradient-gold">Real Estate</span>
+              About
+              <span className="block text-gradient-gold">Rare Earth</span>
             </h2>
             
-            <p className="text-lg text-muted-foreground font-elegant mb-6 leading-relaxed">
-              For over two decades, we have been the premier choice for discerning high net worth 
-              individuals seeking extraordinary properties. Our commitment to excellence, discretion, 
-              and personalized service has made us the most trusted name in luxury real estate.
-            </p>
-            
             <p className="text-lg text-muted-foreground font-elegant mb-8 leading-relaxed">
-              We don't just sell properties; we curate lifestyles. Each property in our portfolio 
-              is meticulously selected for its architectural significance, prime location, and 
-              potential for appreciation, ensuring our clients receive nothing but the finest.
+              Premium luxury real estate for discerning clients. We specialize in exclusive 
+              properties with exceptional quality and service.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">

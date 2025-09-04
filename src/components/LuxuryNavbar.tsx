@@ -17,13 +17,9 @@ const LuxuryNavbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center">
-              <span className="text-accent-foreground font-luxury font-bold text-xl">P</span>
-            </div>
+          <div className="flex items-center">
             <div className="font-luxury">
-              <h1 className="text-xl font-semibold text-foreground">Prestigious</h1>
-              <p className="text-xs text-muted-foreground -mt-1">Properties</p>
+              <h1 className="text-2xl font-semibold text-foreground">RARE EARTH</h1>
             </div>
           </div>
 
@@ -49,7 +45,7 @@ const LuxuryNavbar = () => {
               </div>
               <div className="flex items-center space-x-2 text-muted-foreground">
                 <Mail className="w-4 h-4" />
-                <span>contact@prestigious.com</span>
+                <span>contact@rareearth.com</span>
               </div>
             </div>
             <Button variant="luxury" size="sm">
@@ -88,7 +84,7 @@ const LuxuryNavbar = () => {
                   </div>
                   <div className="flex items-center space-x-2">
                     <Mail className="w-4 h-4" />
-                    <span>contact@prestigious.com</span>
+                    <span>contact@rareearth.com</span>
                   </div>
                 </div>
                 <Button variant="luxury" size="sm" className="mt-4 w-full">

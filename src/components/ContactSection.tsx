@@ -21,8 +21,8 @@ const ContactSection = () => {
     },
     {
       icon: Mail,
-      title: "Email",
-      details: ["contact@prestigious.com", "sales@prestigious.com"],
+      title: "Email", 
+      details: ["contact@rareearth.com", "sales@rareearth.com"],
       description: "Response within 2 hours guaranteed"
     },
     {
@@ -44,18 +44,13 @@ const ContactSection = () => {
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <div className="inline-flex items-center px-4 py-2 rounded-full bg-accent/10 border border-accent/20 mb-6">
-            <span className="text-accent font-elegant text-sm">Get In Touch</span>
-          </div>
-          
           <h2 className="text-4xl md:text-5xl font-luxury font-bold text-foreground mb-6">
-            Start Your Luxury
-            <span className="block text-gradient-gold">Journey Today</span>
+            Contact
+            <span className="block text-gradient-gold">Rare Earth</span>
           </h2>
           
           <p className="text-xl text-muted-foreground font-elegant max-w-2xl mx-auto">
-            Connect with our luxury property experts for personalized service and exclusive access 
-            to the world's most prestigious properties.
+            Get in touch with our luxury property experts.
           </p>
         </div>
 

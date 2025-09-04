@@ -9,6 +9,7 @@ const LuxuryNavbar = () => {
     { name: "Properties", href: "#properties" },
     { name: "Services", href: "#services" },
     { name: "About", href: "#about" },
+    { name: "Book Appointment", href: "#contact" },
     { name: "Contact", href: "#contact" },
   ];
 

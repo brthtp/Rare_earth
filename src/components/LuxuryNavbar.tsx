@@ -37,22 +37,6 @@ const LuxuryNavbar = () => {
             ))}
           </div>
 
-          {/* Contact Info & CTA */}
-          <div className="hidden lg:flex items-center space-x-6">
-            <div className="flex items-center space-x-4 text-sm">
-              <div className="flex items-center space-x-2 text-muted-foreground">
-                <Phone className="w-4 h-4" />
-                <span>+1 (555) 123-4567</span>
-              </div>
-              <div className="flex items-center space-x-2 text-muted-foreground">
-                <Mail className="w-4 h-4" />
-                <span>contact@rareearth.com</span>
-              </div>
-            </div>
-            <Button variant="luxury" size="sm">
-              Schedule Viewing
-            </Button>
-          </div>
 
           {/* Mobile menu button */}
           <button
@@ -77,21 +61,6 @@ const LuxuryNavbar = () => {
                   {item.name}
                 </a>
               ))}
-              <div className="pt-4 border-t border-border">
-                <div className="flex flex-col space-y-2 text-sm text-muted-foreground">
-                  <div className="flex items-center space-x-2">
-                    <Phone className="w-4 h-4" />
-                    <span>+1 (555) 123-4567</span>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <Mail className="w-4 h-4" />
-                    <span>contact@rareearth.com</span>
-                  </div>
-                </div>
-                <Button variant="luxury" size="sm" className="mt-4 w-full">
-                  Schedule Viewing
-                </Button>
-              </div>
             </div>
           </div>
         )}

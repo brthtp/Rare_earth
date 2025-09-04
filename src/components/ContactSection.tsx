@@ -16,7 +16,7 @@ const ContactSection = () => {
     {
       icon: Phone,
       title: "Phone",
-      details: ["+1 (555) 123-4567", "+1 (555) 987-6543"],
+      details: ["+91 8884150025"],
       description: "Available 24/7 for our valued clients"
     },
     {
@@ -28,7 +28,7 @@ const ContactSection = () => {
     {
       icon: MapPin,
       title: "Headquarters",
-      details: ["123 Park Avenue", "New York, NY 10016"],
+      details: ["2nd Floor, 'Ritwik Plaza, 2386/2387, 60 Feet Rd,", "next to Cauvery Public School, E Block,", "Sahakar Nagar, Bengaluru, Karnataka 560092"],
       description: "Visit our luxury showroom by appointment"
     },
     {

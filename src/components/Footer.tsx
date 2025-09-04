@@ -46,11 +46,10 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center">
-                <span className="text-accent-foreground font-luxury font-bold text-xl">P</span>
+                <span className="text-accent-foreground font-luxury font-bold text-xl">R</span>
               </div>
               <div className="font-luxury">
-                <h1 className="text-xl font-semibold text-card-foreground">Prestigious</h1>
-                <p className="text-xs text-muted-foreground -mt-1">Properties</p>
+                <h1 className="text-xl font-semibold text-card-foreground">RARE EARTH</h1>
               </div>
             </div>
             <p className="text-muted-foreground font-elegant mb-6 leading-relaxed">
@@ -62,15 +61,15 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3 text-muted-foreground">
                 <Phone className="w-4 h-4 text-accent" />
-                <span className="font-elegant text-sm">+1 (555) 123-4567</span>
+                <span className="font-elegant text-sm">+91 8884150025</span>
               </div>
               <div className="flex items-center space-x-3 text-muted-foreground">
                 <Mail className="w-4 h-4 text-accent" />
-                <span className="font-elegant text-sm">contact@prestigious.com</span>
+                <span className="font-elegant text-sm">contact@rareearth.com</span>
               </div>
               <div className="flex items-center space-x-3 text-muted-foreground">
                 <MapPin className="w-4 h-4 text-accent" />
-                <span className="font-elegant text-sm">123 Park Avenue, New York</span>
+                <span className="font-elegant text-sm">2nd Floor, 'Ritwik Plaza, Sahakar Nagar, Bengaluru</span>
               </div>
             </div>
           </div>
@@ -172,7 +171,7 @@ const Footer = () => {
         <div className="border-t border-border/50 pt-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="text-muted-foreground font-elegant text-sm">
-              © {currentYear} Prestigious Properties. All rights reserved. | Licensed Real Estate Broker
+              © {currentYear} Rare Earth. All rights reserved. | Licensed Real Estate Broker
             </div>
             
             {/* Social Links */}

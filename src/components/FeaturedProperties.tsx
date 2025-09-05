@@ -9,9 +9,9 @@ const FeaturedProperties = () => {
   const properties = [
     {
       id: 1,
-      title: "Manhattan Penthouse",
-      location: "Upper East Side, New York",
-      price: "$12,500,000",
+      title: "Mumbai Sky Villa",
+      location: "Altamount Road, Mumbai",
+      price: "₹100 Crores",
       image: property1,
       beds: 4,
       baths: 5,
@@ -20,25 +20,25 @@ const FeaturedProperties = () => {
     },
     {
       id: 2,
-      title: "Oceanfront Villa",
-      location: "Malibu, California",
-      price: "$18,750,000",
+      title: "Luxury Villa",
+      location: "Golf Course Road, Gurgaon",
+      price: "₹155 Crores",
       image: property2,
       beds: 6,
       baths: 7,
       sqft: "5,800",
-      description: "Contemporary waterfront masterpiece with infinity pool and panoramic ocean views on private coastline."
+      description: "Contemporary waterfront masterpiece with infinity pool and panoramic city views in premium location."
     },
     {
       id: 3,
-      title: "Historic Mansion",
-      location: "Beverly Hills, California",
-      price: "$22,000,000",
+      title: "Heritage Mansion",
+      location: "Koramangala, Bangalore",
+      price: "₹180 Crores",
       image: property3,
       beds: 8,
       baths: 10,
       sqft: "8,500",
-      description: "Timeless elegance meets modern luxury in this meticulously restored estate with manicured gardens."
+      description: "Timeless elegance meets modern luxury in this meticulously designed estate with manicured gardens."
     }
   ];
 
